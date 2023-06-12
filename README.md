@@ -1,3 +1,15 @@
+# run arctic segmentation:
+```
+python arctic.py --task_id 0
+...
+python arctic.py --task_id 300
+```
+
+The full images path:  `./images` 
+
+The processed seq path: `./outputs/processed_verts/seqs`
+
+The output png path: `./ouputs/segms `
 # MANO Renderer
 
 > A quick-and-dirty script to render hand part segmentation masks from MANO meshes in [InterHand2.6M](https://github.com/facebookresearch/InterHand2.6M). The segmentations are used in [DIGIT](https://github.com/zc-alexfan/digit-interacting). 
